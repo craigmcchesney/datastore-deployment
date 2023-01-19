@@ -1,0 +1,6 @@
+#!/bin/sh
+
+export DATASTORE_SERVER_REPOSITORY_LOCATION='/home/osprey/datastore-support/datastore-file-repository'
+export SPRING_DATA_MONGODB_USERNAME='datastore'
+
+# --datastore.server.repository.location=/home/osprey/datastore-support/datastore-file-repository --datastore.service.influxdb.token=kBhCr542FKn8mQcL9JhUtqqs8mTdSY7mEydJKhtUvvV938q8zScCxjYiJLKXN8aLlKQZ0Bg3kBBGkKznH2d5Fg== --spring.data.mongodb.username=datastore --spring.data.mongodb.password=datastore
