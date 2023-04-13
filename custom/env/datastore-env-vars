@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-export DATASTORE_SERVER_REPOSITORY_LOCATION='~/datastore/datastore-deployment/var/datastore-service-file-repo'
+export DATASTORE_SERVER_REPOSITORY_LOCATION=$(cd ~/datastore/datastore-deployment/var/datastore-service-file-repo && pwd)
+export DATASTORE_REPOSITORY_LOCATION="$DATASTORE_SERVER_REPOSITORY_LOCATION"
 export SPRING_DATA_MONGODB_USERNAME='datastore'
 
 export JAVA_HOME=/usr/java/jdk-16.0.2
